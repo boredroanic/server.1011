@@ -10,9 +10,12 @@ h1:hover{
     transition: 1s;
 }
 
+.p1{
+    display: flex;
+}
+
 h1{
     color: rgb(68, 238, 159);
-    margin-left: 500px;
     font-size: 100px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
@@ -26,23 +29,38 @@ h1{
 }
 
 .ape2:hover{
-    border: gray 1px;
+    border: #fbee97 1px;
     border-radius: 10px;
-    box-shadow: gray 30px 30px;
+    box-shadow: #fbee97e0 30px 30px;
     transition: 1s;    
 }
 
+.ape3:hover{
+    border: rgba(35, 235, 85, 0.623) 1px;
+    border-radius: 10px;
+    box-shadow: rgba(35, 235, 85, 0.623) 30px 30px;
+    transition: 1s;
+}
+
 .ape{
-    margin-left: 5%;
+    margin-left: 2%;
     margin-bottom: 4%;
     margin-right: 2%;
     width: 300px;
     height: 300px;
 }
 .ape2{
-    margin-right: 5%;
+    margin-right: 2%;
     margin-bottom: 4%;
     margin-left: 2%;
+    width: 300px;
+    height: 300px;
+}
+
+.ape3{
+    margin-left: 2%;
+    margin-bottom: 4%;
+    margin-right: 2%;
     width: 300px;
     height: 300px;
 }
@@ -79,7 +97,10 @@ h1{
 
 .b1{
     height: 30px;
-    margin-left: 200px;
+    position: sticky;
+    top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 100px;
     border: 2px antiquewhite;
     background-color: #fbee97;
@@ -90,4 +111,21 @@ h1{
     padding-left: 30px;
     padding-right: 30px;
 
+}
+
+#b2{
+    height: 30px;
+    position: sticky;
+    top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    border: 2px antiquewhite;
+    background-color: #fbee97;
+    border-radius: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;   
 }
